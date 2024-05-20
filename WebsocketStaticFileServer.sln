@@ -5,6 +5,13 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsocketStaticFileServer", "WebsocketStaticFileServer\WebsocketStaticFileServer.csproj", "{B8BBCA14-6089-47E6-B4E1-CA39FE62875F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66CD89CD-2E53-4C96-9745-33A7EF6FB6BE}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsocketStaticFileServer.UnitTests", "WebsocketStaticFileServer.UnitTests\WebsocketStaticFileServer.UnitTests.csproj", "{874A6851-46C3-42E3-8C47-1C6C82096E75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{B8BBCA14-6089-47E6-B4E1-CA39FE62875F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8BBCA14-6089-47E6-B4E1-CA39FE62875F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8BBCA14-6089-47E6-B4E1-CA39FE62875F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874A6851-46C3-42E3-8C47-1C6C82096E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874A6851-46C3-42E3-8C47-1C6C82096E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874A6851-46C3-42E3-8C47-1C6C82096E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874A6851-46C3-42E3-8C47-1C6C82096E75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
